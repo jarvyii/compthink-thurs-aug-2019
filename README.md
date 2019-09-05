@@ -9,7 +9,7 @@ Disclaimer: I did not get the time to test the approach I'm following here. I ap
 
 ## Students:
 - Nobody Jones
-
+- P. Willie Eaton
 
 
 ## a simple tutorial of branching on GitHub
