@@ -24,29 +24,33 @@ https://guides.github.com/activities/hello-world/
 
 ## clone an existing repo
 ```
-$ git clone https://github.com/tkdjohn/compthink-thurs-aug-2019.git
+$ git clone https://github.com/tkdjohn/compthink-thurs-aug-2019.git  # create a local copy of a remote repo
 ```
 ## change branches locally
 ```
-$ git checkout <tab>
+$ git checkout <tab>  # checkout an existing branch.. the <tab> key works nicely here!!
 ```
 ## create and checkout a new branch
-$ git checkout -b iss53
+
+```$ git checkout -b iss53           # create and checkout a new branch
 Switched to a new branch "iss53"
+```
 This is shorthand for:
 ```
 $ git branch iss53
 $ git checkout iss53
 ```
-## see what's changed
+
+## make some changes and see what's changed
 ```
 $ git status
  ```
 
 ## stage, commit and push your changes 
 ```
-$ git stage *  #you can stage one or more files as necessary, but typically you want to stage all changes
-$ git commit -m "your message here"  
+$ git add newfile.txt    #not necessary to add new files for what we're doing to today, but good to know how to do.
+$ git stage *            #you can stage one or more files as necessary, but typically you want to stage all changes
+$ git commit -m "your message here"  #good commit messages are a whole topic unto themselves. But try to keep it short and meaningful.
 ```
 
 git may prompt you to login here. Use your git hub credentials.
