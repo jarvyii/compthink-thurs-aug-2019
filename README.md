@@ -79,3 +79,5 @@ Typically, unless my changes break the build, I'll go ahead and commit changes w
   - stash any changes in progress then fix the problem and commit/push the fix 
   - but you can do a revert on that commit (A revert makes a NEW commit that undoes the changes in another commit) seek assistance with this the first time you try it!
 
+## Protip: if you use git Hub regularly, the Octotree plugin for Chrome is a must have
+https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en-US
