@@ -2,6 +2,15 @@
 A very simple class project to demonstrate branching in get.
 
 Disclaimer: I did not get the time to test the approach I'm following here. I apologize if there are issues.
+## Professor Tony Buckler
+
+## Mentors:
+- John Stokes
+
+## Students:
+- Nobody Jones
+
+
 
 ## a simple tutorial of branching on GitHub
 https://guides.github.com/activities/hello-world/
@@ -53,10 +62,20 @@ $ git pull
 ## Pull Requests & merging demo (time permitting)
 This too will vary depending on tools and repo. Visual Studio does a decent job for local merging. Hopefully we won't have any complicated merges. Merging from the cli can be painful if you don't have git configured to use a decent merge tool. (I don't) 
 
-## Professor Tony Buckler
+## I was in the middle of a change that I don't want to commit, but i need to change branches!!
+$ git stash 
+$ git stash -drop #removes the stash 
+$ get stash -pop #retrieves the stash and then removes it
 
-## Mentors:
-- John Stokes
+Typically, unless my changes break the build, I'll go ahead and commit changes when I need to switch branches. But I won't always push them to the remote. 
 
-## Students:
-- Nobody Jones
+## OOPS I did it again - I made a mistake (fixing mistakes after commit - time permitting)
+- if not committed, just fix it and go on
+- if the mistake is committed but not pushed - several possibilities
+  - remove the commit (Google git reset ) This can cause you to lose uncommitted changes (see git stash for a way to avoid this)
+  - if really really bad, you can always delete your local repo and clone it again. (note you can clone the same repo to different directories too!)
+- if the mistake committed and pushed (these can work for unpushed commits with mistakes too) 
+  - others may have a copy of your mistake! Therefore you can't delete the commit!
+  - stash any changes in progress then fix the problem and commit/push the fix 
+  - but you can do a revert on that commit (A revert makes a NEW commit that undoes the changes in another commit) seek assistance with this the first time you try it!
+
