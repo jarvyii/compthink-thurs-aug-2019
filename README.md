@@ -6,6 +6,8 @@ Disclaimer: I did not get the time to test the approach I'm following here. I ap
 
 ## Mentors:
 - John Stokes
+- Jonathan Cowherd
+- Calvin Miracle
 
 ## Students:
 - Nobody Jones
