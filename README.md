@@ -37,10 +37,10 @@ $ git branch iss53
 $ git checkout iss53
 
 ## see what's changed
-git status
+$ git status
 
 ## stage, commit and push your changes 
-$ git stage *
+$ git stage *  #you can stage one or more files as necessary, but typically you want to stage all changes
 $ git commit -m "your message here"  
 
 git may prompt you to login here. Use your git hub credentials.
