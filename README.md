@@ -55,9 +55,9 @@ These steps will vary depending on the tools supported by your repo (Like GitHub
 I have configured this repo to require pull requests to get changes back to the master branch. This is common. Most shops use Pull Requests as part of the workflow to enforce code reviews.  
 
 ## Refresh your local repo to see others' changes
-$ git checkout master
-$ git fetch --prune # see what is different
-$ git pull
+$ git checkout master    # change to master branch
+$ git fetch --prune      # see what is different
+$ git pull               # actually get teh changes
 
 ## Pull Requests & merging demo (time permitting)
 This too will vary depending on tools and repo. Visual Studio does a decent job for local merging. Hopefully we won't have any complicated merges. Merging from the cli can be painful if you don't have git configured to use a decent merge tool. (I don't) 
