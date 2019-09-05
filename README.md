@@ -32,7 +32,8 @@ $ git checkout <tab>  # checkout an existing branch.. the <tab> key works nicely
 ```
 ## create and checkout a new branch
 
-```$ git checkout -b iss53           # create and checkout a new branch
+```
+$ git checkout -b iss53           # create and checkout a new branch
 Switched to a new branch "iss53"
 ```
 This is shorthand for:
